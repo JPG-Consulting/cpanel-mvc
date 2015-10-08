@@ -37,6 +37,7 @@ class ServiceManagerConfig extends Config
     protected $factories = array(
         'EventManager'  => 'CPanel\Mvc\Service\EventManagerFactory',
         // ZendFramework does NOT do this here!
+        'Application' => 'CPanel\Mvc\Service\ApplicationFactory',
         'Request' => 'CPanel\Mvc\Service\RequestFactory',
         'Response' => 'CPanel\Mvc\Service\ResponseFactory',
     );

@@ -135,7 +135,8 @@ class Application implements ApplicationInterface
         $smConfig = isset($configuration['service_manager']) ? $configuration['service_manager'] : array();
         $serviceManager = new ServiceManager(new Service\ServiceManagerConfig($smConfig));
         $serviceManager->setService('ApplicationConfig', $configuration);
+        $serviceManager->setService('Config', $configuration);
         
-        return new Application($configuration, $serviceManager);
+        return $serviceManager->get('Application');
     }
 }
