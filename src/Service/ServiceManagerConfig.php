@@ -26,6 +26,7 @@ class ServiceManagerConfig extends Config
      * @var array
      */
     protected $invokables = array(
+        'RouteListener'      => 'CPanel\Mvc\RouteListener',
         'SharedEventManager' => 'Zend\EventManager\SharedEventManager',
     );
 

@@ -2,11 +2,13 @@
     "name": "jpg-consulting/cpanel-mvc",
     "require": {
         "php": ">=5.3.23",
+        "doctrine/dbal": "2.5.2",
         "zendframework/zend-console": "2.4.8",
         "zendframework/zend-eventmanager": "2.4.8",
         "zendframework/zend-http": "2.4.8",
         "zendframework/zend-servicemanager": "2.4.8",
-        "zendframework/zend-stdlib": "2.4.8"
+        "zendframework/zend-stdlib": "2.4.8",
+        "zendframework/zend-view": "2.4.8"
     },
     "autoload": {
         "psr-4": {
