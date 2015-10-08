@@ -1,0 +1,12 @@
+{
+    "name": "jpg-consulting/cpanel-mvc",
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zend-mvc": "2.4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "CPanel\\Mvc\\": "src/"
+        }
+    },
+}
