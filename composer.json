@@ -2,6 +2,7 @@
     "name": "jpg-consulting/cpanel-mvc",
     "require": {
         "php": ">=5.3.23",
+        "zendframework/zend-console": "2.4.8",
         "zendframework/zend-eventmanager": "2.4.8",
         "zendframework/zend-servicemanager": "2.4.8",
         "zendframework/zend-stdlib": "2.4.8"

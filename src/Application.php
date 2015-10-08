@@ -39,8 +39,8 @@ class Application implements ApplicationInterface
 
         $this->setEventManager($serviceManager->get('EventManager'));
 
-        //$this->request        = $serviceManager->get('Request');
-        //$this->response       = $serviceManager->get('Response');
+        $this->request        = $serviceManager->get('Request');
+        $this->response       = $serviceManager->get('Response');
     }
 
     /**
